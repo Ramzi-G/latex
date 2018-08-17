@@ -1,0 +1,47 @@
+\documentclass{proc}
+
+\usepackage[margin = 2cm]{geometry}
+\usepackage{graphicx}
+
+\title{Including Graphics}
+\author{Tajib Smajlovic}
+\date{}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Introduction}
+	Picture books are just \emph{better}
+	
+	\subsection{Including Graphics}
+	This is a pic in a JPG.
+	\includegraphics[width=5cm]{zeko.jpg}
+	
+	This is a PNG.
+	\includegraphics[width=5cm]{jpg.png}
+	
+	\subsection{Float: Figure Environment}
+	In my article, I want to include JPG image. You can see this image in the figure below.
+	\begin{figure}[htbp]
+		\begin{center}
+			\includegraphics[width=5cm]{zeko.jpg}
+		\end{center}
+		\caption{This is zeko.}
+		\label{fig:zeko}
+	\end{figure}
+
+	In my article, I want to include png image.
+	\begin{figure}[htbp]
+		\begin{center}
+			\includegraphics[width=5cm]{jpg.png}
+		\end{center}
+		\caption{This is png.}
+		\label{fig:png}
+	\end{figure}
+	
+	\section{Conclusion}
+	Adding images to an article
+	
+\end{document}
