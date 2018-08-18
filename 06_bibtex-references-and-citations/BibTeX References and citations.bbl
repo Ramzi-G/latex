@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{keyThree}
+Latex - a document preparation system.
+\newblock http://www.latex-project.org/.
+
+\bibitem{keyOne}
+Bill Hall, James Jones, and Mark Todd.
+\newblock A good article.
+\newblock {\em Computer}, 280(10):100--100.
+
+\bibitem{keyTwo}
+Tom Smith.
+\newblock {\em A Super Book}.
+\newblock PubCo, 2012.
+
+\end{thebibliography}
